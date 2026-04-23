@@ -567,7 +567,7 @@ body {
 @media (max-width: 480px) {
 
     .hero-names {
-        font-size: 5rem;
+        font-size: 3rem;
     }
 
     .quote-text {
@@ -691,7 +691,7 @@ body {
 
 .moments-venue-section {
     text-align: center;
-    padding: 120px 20px;
+    padding: 20px 20px;
     /* background: linear-gradient(#fdfbf7, #f7f3ec); */
 }
 .moments-venue-section h2{
@@ -883,16 +883,21 @@ body {
 }
 
 .person-card h3 {
-  font-size: 40px;
+  font-size: 1.5rem;
   color: var(--emerald);
   margin-bottom: 12px;
+}
+.person-card p {
+  font-size: 15px;
+  color: #4e4c4c;
+  /* margin-bottom: 12px; */
 }
 
 .section-title {
   text-align: center;
-  font-size: 48px;
+  font-size: 2rem;
   color: var(--emerald);
-  margin-bottom: 14px;
+  /* margin-bottom: 8px; */
   font-weight: 600;
 }
 
